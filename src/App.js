@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Table from './component/Table';
+import Status from './component/Status';
 
-function App() {
+const App = () => {
+  const [status, setStatus] = useState("BEFORE");
+  const [home, setShop] = useState({ x: 1, y: 1 });
+  const [shop, setHome] = useState({ x: 8, y: 7 });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    < div className="App" >
+      <p className="title">DFS Flood-Fill</p>
+      <Status status={status} />
+      <Table setStatus={setStatus} shop={shop} home={home} />
+    </div >
+  )
 }
 
 export default App;
