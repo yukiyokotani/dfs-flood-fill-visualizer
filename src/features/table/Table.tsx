@@ -155,6 +155,8 @@ const DpTable: React.FC = () => {
       initTable[i] = row.slice();
     });
 
+    setEvaluation('INPROCESS');
+
     const resTable = await recUpdate(initTable, currCoord, prevCoord);
     if (
       tableState.shop &&
