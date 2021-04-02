@@ -1,5 +1,7 @@
-# Knapsack Problem Visualizer
-This application visualizes update of dp-table in the case of knapsack problem.  
+# DFS Flood-Fill Visualizer
+
+This application visualizes Flood-Filling of lattice by using DFS method.
+The problem which this application trys to solve is inspired by [AtCoder Typical Contest 001 A problem](https://atc001.contest.atcoder.jp/tasks/dfs_a).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
