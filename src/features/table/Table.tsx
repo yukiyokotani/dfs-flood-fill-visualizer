@@ -255,7 +255,9 @@ const DpTable: React.FC = () => {
                   <Button
                     variant="contained"
                     color="primary"
-                    disabled={condition.eval === 'INPROCESS'}
+                    disabled={
+                      condition.eval === 'INPROCESS' || !tableState.home
+                    }
                     onClick={() => {
                       resetProcess();
                       scanTable();

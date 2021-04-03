@@ -52,20 +52,35 @@ const tableSlice = createSlice({
       const newType =
         (state.table[action.payload.i][action.payload.j].type + 1) % 4;
       state.table[action.payload.i][action.payload.j].type = newType;
+      // shopのマスをshopでないものに変更した場合、shopをリセット
+      if (
+        state.shop &&
+        state.shop.i === action.payload.i &&
+        state.shop.j === action.payload.j
+      ) {
+        if (newType !== 2) {
+          state.shop = undefined;
+        }
+      }
+      // homeのマスをhomeでないものに変更した場合、homeをリセット
+      if (
+        state.home &&
+        state.home.i === action.payload.i &&
+        state.home.j === action.payload.j
+      ) {
+        if (newType !== 3) {
+          state.home = undefined;
+        }
+      }
+      // 新しくshopのマスを設定したときに、前のshopのマスをリセットし、新しくshopを設定
       if (newType === 2) {
         if (state.shop) {
           state.table[state.shop.i][state.shop.j].type = 0;
         }
         state.shop = action.payload;
       }
+      // 新しくhomeのマスを設定したときに、前のhomeのマスをリセットし、新しくhomeを設定
       if (newType === 3) {
-        // 2のときに一回shopになるので、その場合shopをリセット
-        if (
-          state.shop?.i === action.payload.i &&
-          state.shop?.j === action.payload.j
-        ) {
-          state.shop = undefined;
-        }
         if (state.home) {
           state.table[state.home.i][state.home.j].type = 0;
         }

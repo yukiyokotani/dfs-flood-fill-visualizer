@@ -60,7 +60,7 @@ const Speed: React.FC = () => {
             </Typography>
             <Box pr={2}>
               <Slider
-                defaultValue={10}
+                defaultValue={5}
                 aria-labelledby="discrete-slider"
                 valueLabelDisplay="auto"
                 step={1}
