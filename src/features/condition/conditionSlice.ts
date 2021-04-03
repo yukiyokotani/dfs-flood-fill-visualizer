@@ -15,7 +15,7 @@ export type ConditionState = {
 };
 
 const initialState: ConditionState = {
-  speed: 10,
+  speed: 5,
   eval: 'BEFORE',
 };
 
