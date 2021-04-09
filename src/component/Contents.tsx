@@ -1,5 +1,6 @@
 import { Container, createStyles, Grid, makeStyles } from '@material-ui/core';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useSnackbar } from 'notistack';
 import Speed from '../features/condition/Speed';
 import Evaluation from '../features/condition/Evaluation';
 import Table from '../features/table/Table';
@@ -18,6 +19,13 @@ const useStyles = makeStyles(() =>
 );
 const Contents: React.FC = () => {
   const classes = useStyles();
+  const { enqueueSnackbar } = useSnackbar();
+
+  useEffect(() => {
+    enqueueSnackbar('地図をクリックして迷路を完成させてください。', {
+      variant: 'info',
+    });
+  }, [enqueueSnackbar]);
 
   return (
     <Container maxWidth="md" className={classes.root}>
