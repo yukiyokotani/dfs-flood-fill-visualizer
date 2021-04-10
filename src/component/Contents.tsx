@@ -22,7 +22,7 @@ const Contents: React.FC = () => {
   const { enqueueSnackbar } = useSnackbar();
 
   useEffect(() => {
-    enqueueSnackbar('地図をクリックして迷路を完成させてください。', {
+    enqueueSnackbar('マス目をクリックして迷路を完成させてください。', {
       variant: 'info',
     });
   }, [enqueueSnackbar]);
