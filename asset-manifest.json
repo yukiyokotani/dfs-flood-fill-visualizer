@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/dfs-flood-fill-visualizer/static/js/main.7cad187a.chunk.js",
-    "main.js.map": "/dfs-flood-fill-visualizer/static/js/main.7cad187a.chunk.js.map",
-    "runtime-main.js": "/dfs-flood-fill-visualizer/static/js/runtime-main.31cdd3d6.js",
-    "runtime-main.js.map": "/dfs-flood-fill-visualizer/static/js/runtime-main.31cdd3d6.js.map",
-    "static/js/2.57ea28a2.chunk.js": "/dfs-flood-fill-visualizer/static/js/2.57ea28a2.chunk.js",
-    "static/js/2.57ea28a2.chunk.js.map": "/dfs-flood-fill-visualizer/static/js/2.57ea28a2.chunk.js.map",
+    "main.js": "/dfs-flood-fill-visualizer/static/js/main.82b173ce.chunk.js",
+    "main.js.map": "/dfs-flood-fill-visualizer/static/js/main.82b173ce.chunk.js.map",
+    "runtime-main.js": "/dfs-flood-fill-visualizer/static/js/runtime-main.e4fc4497.js",
+    "runtime-main.js.map": "/dfs-flood-fill-visualizer/static/js/runtime-main.e4fc4497.js.map",
+    "static/js/2.4cf8ace5.chunk.js": "/dfs-flood-fill-visualizer/static/js/2.4cf8ace5.chunk.js",
+    "static/js/2.4cf8ace5.chunk.js.map": "/dfs-flood-fill-visualizer/static/js/2.4cf8ace5.chunk.js.map",
     "index.html": "/dfs-flood-fill-visualizer/index.html",
-    "static/js/2.57ea28a2.chunk.js.LICENSE.txt": "/dfs-flood-fill-visualizer/static/js/2.57ea28a2.chunk.js.LICENSE.txt"
+    "static/js/2.4cf8ace5.chunk.js.LICENSE.txt": "/dfs-flood-fill-visualizer/static/js/2.4cf8ace5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.31cdd3d6.js",
-    "static/js/2.57ea28a2.chunk.js",
-    "static/js/main.7cad187a.chunk.js"
+    "static/js/runtime-main.e4fc4497.js",
+    "static/js/2.4cf8ace5.chunk.js",
+    "static/js/main.82b173ce.chunk.js"
   ]
 }
