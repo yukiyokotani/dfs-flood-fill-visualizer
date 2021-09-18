@@ -1,4 +1,4 @@
-# DFS Flood-Fill Visualizer [[Demo](https://yokotani92.github.io/dfs-flood-fill-visualizer/)]
+# DFS Flood-Fill Visualizer [[Demo](https://yukiyokotani.github.io/dfs-flood-fill-visualizer/)]
 
 
 This application visualizes Flood-Filling of lattice by using DFS method.
