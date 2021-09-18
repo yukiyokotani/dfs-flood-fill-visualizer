@@ -25,6 +25,12 @@ const Contents: React.FC = () => {
     enqueueSnackbar('マス目をクリックして迷路を完成させてください。', {
       variant: 'info',
     });
+    enqueueSnackbar(
+      'マス目を複数回クリックすることでマスの種類が変わります。',
+      {
+        variant: 'info',
+      }
+    );
   }, [enqueueSnackbar]);
 
   return (
