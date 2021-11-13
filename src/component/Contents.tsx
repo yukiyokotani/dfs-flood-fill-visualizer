@@ -22,11 +22,11 @@ const Contents: React.FC = () => {
   const { enqueueSnackbar } = useSnackbar();
 
   useEffect(() => {
-    enqueueSnackbar('マス目をクリックして迷路を完成させてください。', {
+    enqueueSnackbar('マス目をクリックして迷路を完成させてください。', {
       variant: 'info',
     });
     enqueueSnackbar(
-      'マス目を複数回クリックすることでマスの種類が変わります。',
+      'マス目を複数回クリックすることでマスの種類が変わります。',
       {
         variant: 'info',
       }
