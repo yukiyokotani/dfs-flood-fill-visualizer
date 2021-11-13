@@ -30,8 +30,7 @@ const useStyles = makeStyles((theme: Theme) =>
       '-khtml-user-select': 'none' /* Konqueror HTML */,
       '-moz-user-select': 'none' /* Old versions of Firefox */,
       '-ms-user-select': 'none' /* Internet Explorer/Edge */,
-      'user-select':
-        'none' /* Non-prefixed version, currently
+      'user-select': 'none' /* Non-prefixed version, currently
                                         supported by Chrome, Edge, Opera and Firefox */,
       [theme.breakpoints.down('xs')]: {
         fontSize: '1rem',
