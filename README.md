@@ -10,7 +10,7 @@ This project is built by [Vite](https://vitejs.dev/).
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000/dp-visualizer](http://localhost:3000/dp-visualizer) to view it in the browser.
