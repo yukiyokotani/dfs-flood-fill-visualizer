@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
       fontSize: '2rem',
       width: '3rem',
       height: '3rem',
-      cursor: 'default',
+      cursor: 'pointer',
       '-webkit-touch-callout': 'none' /* iOS Safari */,
       '-webkit-user-select': 'none' /* Safari */,
       '-khtml-user-select': 'none' /* Konqueror HTML */,
